@@ -1,0 +1,26 @@
+{
+	"name": "svenjuergens/minihelper",
+	"type": "typo3-cms-extension",
+	"description": "Minihelper",
+	"authors": [
+		{
+			"name": "Sven Jürgens"
+		}
+	],
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+		"typo3/cms-core": "^11.5.31 || ^12.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"SvenJuergens\\Minihelper\\": "Classes"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "minihelper"
+		}
+	}
+}
